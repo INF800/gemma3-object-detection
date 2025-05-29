@@ -5,6 +5,8 @@ import torch
 
 @dataclass
 class Configuration:
+    project_name: str = "run-forrest-run"
+    
     dataset_id: str = "ariG23498/license-detection-paligemma"
 
     model_id: str = "google/gemma-3-4b-pt"
